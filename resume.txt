@@ -1,0 +1,84 @@
+================================================================================
+                                  JAYA KUMAR
+                    React Developer | Frontend Specialist
+📍 Kanchipuram, Tamil Nadu, India | 📞 +91 78249 03603 | ✉️ jayakumar603107@gmail.com
+🔗 LinkedIn: linkedin.com/in/jay-react-dev | 💻 GitHub: github.com/jayakumar516234
+================================================================================
+
+PROFESSIONAL SUMMARY
+--------------------------------------------------------------------------------
+Dynamic and results-driven React Developer with 2+ years of hands-on experience
+building scalable, responsive, and high-performance web applications. Specialized
+in React.js, Next.js, TypeScript, JavaScript (ES6+), and Tailwind CSS, with
+foundational backend proficiency in Node.js, Express.js, and REST APIs. Proven
+expertise in engineering enterprise Admin Dashboards, Role-Based Access Control
+(RBAC) modules, E-Commerce platforms, and F&B solutions integrated with Stripe
+payment workflows. Power user of modern AI workflows (ChatGPT, Claude,
+Antigravity AI) for rapid problem solving, UI optimization, and clean architecture.
+
+TECHNICAL SKILLS
+--------------------------------------------------------------------------------
+• Frontend Core & UI:      React.js, Next.js, TypeScript, JavaScript (ES6+),
+                           HTML5, CSS3, Tailwind CSS, Material UI
+• State & Architecture:    React Hooks, Context API, Component-Driven UI,
+                           Modular Design, Responsive Web Design
+• Backend & APIs (Basics): Node.js (Basics), Express.js (Basics), RESTful APIs,
+                           JSON, MongoDB (CRUD Operations)
+• Payments & Integrations: Stripe Payment Gateway, Third-Party REST APIs, Webhooks
+• Tools & Workflow:        Git, GitHub, Postman, Vite, VS Code, npm/yarn
+
+PROFESSIONAL EXPERIENCE
+--------------------------------------------------------------------------------
+React Developer • Sunpro Inno Apps Pvt Ltd          Feb 2024 – Present | Chennai
+• Architected and deployed responsive single-page (SPA) and multi-page web
+  applications using React.js, Next.js, TypeScript, and Tailwind CSS.
+• Engineered granular Role-Based Access Control (RBAC) systems and permissions
+  management modules for administrative operations.
+• Integrated secure Stripe payment gateway workflows, handling seamless customer
+  checkout and transaction status monitoring.
+• Developed bulk product management tools and calendar-based dynamic
+  booking/scheduling modules for business clients.
+• Built reusable React component libraries and modular utilities, boosting team
+  development velocity by 30%.
+• Collaborated closely with UI/UX designers and connected frontend client
+  applications with backend Node.js REST APIs.
+
+FEATURED PROJECTS
+--------------------------------------------------------------------------------
+1. Interactive Developer Portfolio
+   Technologies: React.js, Tailwind CSS, Framer Motion, Vite, LLM APIs
+   Live Demo: https://jayakumar516234.github.io/portfolio/
+   GitHub: https://github.com/jayakumar516234/portfolio
+   • Modern developer portfolio with glassmorphic UI, animations, and an AI
+     Assistant chatbot supporting live LLM queries.
+
+2. E-Commerce Platform
+   Technologies: React.js, Next.js, Tailwind CSS, Node.js Basics, Stripe, MongoDB
+   GitHub: https://github.com/jayakumar516234
+   • End-to-end shopping platform featuring dynamic product filtering, cart state
+     management, and Stripe checkout.
+
+3. Food & Beverage (F&B) Management Platform
+   Technologies: React.js, TypeScript, Tailwind CSS, Node.js, Express.js
+   GitHub: https://github.com/jayakumar516234
+   • Real-time table reservations, digital menu catalogs, live order tracking,
+     and kitchen workflow screens.
+
+4. Enterprise Admin & RBAC System
+   Technologies: React.js, Next.js, TypeScript, Material UI, REST APIs
+   GitHub: https://github.com/jayakumar516234
+   • Administrative portal featuring role-based access permissions, bulk product
+     tools, and order analytics.
+
+EDUCATION
+--------------------------------------------------------------------------------
+Bachelor of Science in Physics (B.Sc)
+Pachaiyappa’s College For Men, Kanchipuram (2016 – 2019)
+
+CERTIFICATIONS & TRAINING
+--------------------------------------------------------------------------------
+• Full-Stack Java & Web Development (Login 360 Training Institute)
+• React.js & Modern Frontend Architecture
+• JavaScript (ES6+) & Async Programming
+• Node.js Basics & RESTful APIs
+================================================================================
