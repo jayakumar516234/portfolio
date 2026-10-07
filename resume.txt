@@ -47,7 +47,7 @@ FEATURED PROJECTS
 --------------------------------------------------------------------------------
 1. Interactive Developer Portfolio
    Technologies: React.js, Tailwind CSS, Framer Motion, Vite, LLM APIs
-   Live Demo: https://jayakumar516234.github.io/portfolio/
+   Live Demo: https://jayakumar-dev.vercel.app
    GitHub: https://github.com/jayakumar516234/portfolio
    • Modern developer portfolio with glassmorphic UI, animations, and an AI
      Assistant chatbot supporting live LLM queries.

@@ -96,7 +96,7 @@ export const userData = {
         "Modern, high-performance developer portfolio built with React, Vite, Tailwind CSS, and Framer Motion, featuring an interactive AI Assistant chatbot with live LLM integration and dynamic theme customization.",
       tech: ["React.js", "Tailwind CSS", "Framer Motion", "Vite", "AI / LLM API"],
       link: "https://github.com/jayakumar516234/portfolio",
-      demo: "https://jayakumar516234.github.io/portfolio/",
+      demo: "https://jayakumar-dev.vercel.app",
     },
     {
       title: "Impact",
