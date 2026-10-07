@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jaya Kumar - Resume</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 10mm 13mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #1e293b;
+      line-height: 1.35;
+      font-size: 9.5pt;
+      background: #ffffff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 8px;
+      border-bottom: 2px solid #0d9488;
+      padding-bottom: 6px;
+    }
+    .header h1 {
+      font-size: 21pt;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+    .header .role {
+      font-size: 11pt;
+      font-weight: 700;
+      color: #0d9488;
+      margin-bottom: 4px;
+      letter-spacing: 0.3px;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-size: 8.5pt;
+      color: #475569;
+    }
+    .contact-info a {
+      color: #0d9488;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact-sep {
+      color: #cbd5e1;
+    }
+    .section {
+      margin-bottom: 8px;
+    }
+    .section-title {
+      font-size: 10pt;
+      font-weight: 800;
+      color: #0d9488;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1.5px solid #e2e8f0;
+      padding-bottom: 2px;
+      margin-bottom: 4px;
+    }
+    .summary-text {
+      font-size: 8.8pt;
+      color: #334155;
+      text-align: justify;
+      line-height: 1.35;
+    }
+    .skills-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      font-size: 8.5pt;
+    }
+    .skill-row {
+      display: flex;
+      line-height: 1.3;
+    }
+    .skill-label {
+      width: 170px;
+      font-weight: 700;
+      color: #0f172a;
+      flex-shrink: 0;
+    }
+    .skill-items {
+      color: #334155;
+    }
+    .exp-item {
+      margin-bottom: 4px;
+    }
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+    .exp-title {
+      font-size: 9.2pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .exp-company {
+      font-size: 9pt;
+      font-weight: 600;
+      color: #0d9488;
+    }
+    .exp-meta {
+      font-size: 8.2pt;
+      color: #64748b;
+      font-weight: 600;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 15px;
+      margin-top: 2px;
+    }
+    li {
+      font-size: 8.5pt;
+      color: #334155;
+      margin-bottom: 2px;
+      line-height: 1.3;
+    }
+    li strong {
+      color: #0f172a;
+    }
+    .proj-item {
+      margin-bottom: 5px;
+    }
+    .proj-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1px;
+    }
+    .proj-name {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .proj-tech {
+      font-size: 7.8pt;
+      font-family: 'Consolas', 'Courier New', monospace;
+      color: #0d9488;
+      font-weight: 600;
+      margin-left: 6px;
+    }
+    .proj-links {
+      font-size: 8pt;
+      flex-shrink: 0;
+    }
+    .proj-links a {
+      color: #0284c7;
+      text-decoration: none;
+      font-weight: 600;
+      margin-left: 8px;
+    }
+    .edu-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 8.8pt;
+      margin-bottom: 1px;
+    }
+    .edu-degree {
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .edu-school {
+      color: #334155;
+    }
+    .edu-year {
+      font-size: 8.2pt;
+      color: #64748b;
+      font-weight: 600;
+    }
+    .cert-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 12px;
+      font-size: 8.3pt;
+      color: #334155;
+    }
+    .cert-item {
+      display: inline-flex;
+      align-items: center;
+    }
+    .cert-item::before {
+      content: "•";
+      color: #0d9488;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <h1>JAYA KUMAR</h1>
+    <div class="role">React Developer | Frontend Specialist</div>
+    <div class="contact-info">
+      <span>📍 Kanchipuram, Tamil Nadu, India</span>
+      <span class="contact-sep">|</span>
+      <span>📞 +91 78249 03603</span>
+      <span class="contact-sep">|</span>
+      <span>✉️ <a href="mailto:jayakumar603107@gmail.com">jayakumar603107@gmail.com</a></span>
+      <span class="contact-sep">|</span>
+      <span>🔗 <a href="https://linkedin.com/in/jay-react-dev" target="_blank">LinkedIn</a></span>
+      <span class="contact-sep">|</span>
+      <span>💻 <a href="https://github.com/jayakumar516234" target="_blank">GitHub</a></span>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="section-title">Professional Summary</div>
+    <p class="summary-text">
+      Dynamic and results-driven <strong>React Developer</strong> with <strong>2+ years of hands-on experience</strong> building scalable, responsive, and high-performance web applications. Specialized in <strong>React.js, Next.js, TypeScript, JavaScript (ES6+), and Tailwind CSS</strong>, with foundational backend proficiency in <strong>Node.js, Express.js, and REST APIs</strong>. Proven expertise in engineering enterprise Admin Dashboards, Role-Based Access Control (RBAC) modules, E-Commerce platforms, and F&B solutions integrated with <strong>Stripe payment workflows</strong>. Power user of modern AI workflows (ChatGPT, Claude, Antigravity AI) for rapid problem solving, UI optimization, and clean code architecture.
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <div class="skill-row">
+        <span class="skill-label">Frontend Core & UI:</span>
+        <span class="skill-items">React.js, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Material UI</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">State & Architecture:</span>
+        <span class="skill-items">React Hooks, Context API, Component-Driven UI, Modular Design, Responsive Web Design</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Backend & APIs (Basics):</span>
+        <span class="skill-items">Node.js (Basics), Express.js (Basics), RESTful APIs, JSON, MongoDB (CRUD Operations)</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Payments & Integrations:</span>
+        <span class="skill-items">Stripe Payment Gateway, Third-Party REST APIs, Webhook Handlers</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Tools & Workflow:</span>
+        <span class="skill-items">Git, GitHub, Postman, Vite, VS Code, npm/yarn</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">Professional Experience</div>
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-title">React Developer</span> • <span class="exp-company">Sunpro Inno Apps Pvt Ltd</span>
+        </div>
+        <span class="exp-meta">Feb 2024 – Present | Chennai, India</span>
+      </div>
+      <ul>
+        <li>Architected and deployed responsive single-page (SPA) and multi-page web applications using <strong>React.js, Next.js, TypeScript</strong>, and <strong>Tailwind CSS</strong>.</li>
+        <li>Engineered granular <strong>Role-Based Access Control (RBAC)</strong> systems and permissions management modules for administrative operations.</li>
+        <li>Integrated secure <strong>Stripe payment gateway</strong> workflows, handling seamless customer checkout and transaction status monitoring.</li>
+        <li>Developed bulk product management tools and calendar-based dynamic booking/scheduling modules for business clients.</li>
+        <li>Built reusable React component libraries and modular utilities, boosting team development velocity by <strong>30%</strong>.</li>
+        <li>Collaborated closely with UI/UX designers and connected frontend client applications with backend <strong>Node.js REST APIs</strong>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">Featured Projects</div>
+    
+    <div class="proj-item">
+      <div class="proj-header">
+        <div>
+          <span class="proj-name">1. Interactive Developer Portfolio</span>
+          <span class="proj-tech">(React.js, Tailwind CSS, Framer Motion, Vite, LLM API)</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://jayakumar516234.github.io/portfolio/" target="_blank">Live Demo ↗</a>
+          <a href="https://github.com/jayakumar516234/portfolio" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <ul>
+        <li>Modern developer portfolio with glassmorphic UI, animations, and an AI Assistant chatbot supporting live LLM queries.</li>
+      </ul>
+    </div>
+
+    <div class="proj-item">
+      <div class="proj-header">
+        <div>
+          <span class="proj-name">2. E-Commerce Platform</span>
+          <span class="proj-tech">(React.js, Next.js, Tailwind CSS, Node.js Basics, Stripe, MongoDB)</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/jayakumar516234" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <ul>
+        <li>End-to-end shopping platform featuring dynamic product filtering, cart state management, and Stripe checkout.</li>
+      </ul>
+    </div>
+
+    <div class="proj-item">
+      <div class="proj-header">
+        <div>
+          <span class="proj-name">3. Food & Beverage (F&B) Management Platform</span>
+          <span class="proj-tech">(React.js, TypeScript, Tailwind CSS, Node.js, Express.js)</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/jayakumar516234" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <ul>
+        <li>Real-time table reservations, digital menu catalogs, live order tracking, and kitchen workflow screens.</li>
+      </ul>
+    </div>
+
+    <div class="proj-item">
+      <div class="proj-header">
+        <div>
+          <span class="proj-name">4. Enterprise Admin & RBAC System</span>
+          <span class="proj-tech">(React.js, Next.js, TypeScript, Material UI, REST APIs)</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/jayakumar516234" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <ul>
+        <li>Administrative portal featuring role-based access permissions, bulk product tools, and order analytics.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-row">
+      <div>
+        <span class="edu-degree">Bachelor of Science in Physics (B.Sc)</span> – <span class="edu-school">Pachaiyappa’s College For Men, Kanchipuram</span>
+      </div>
+      <span class="edu-year">2016 – 2019</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">Certifications & Training</div>
+    <div class="cert-list">
+      <span class="cert-item">Full-Stack Java & Web Development (Login 360 Training Institute)</span>
+      <span class="cert-item">React.js & Modern Frontend Architecture</span>
+      <span class="cert-item">JavaScript (ES6+) & Async Programming</span>
+      <span class="cert-item">Node.js Basics & RESTful APIs</span>
+    </div>
+  </section>
+
+</body>
+</html>
